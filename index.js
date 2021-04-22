@@ -6,7 +6,7 @@ const people = [];
 app.get("/", (req, res) => {
   console.log("get request");
   res.json(people);
-  res.sendStatus(200);
+  //res.sendStatus(200);
 });
 
 app.post("/insert", (req, res) => {
